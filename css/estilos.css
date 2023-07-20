@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+div h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 70px;
+}
+
+.contenedorIcons{
+    background-color: rgb(0, 0, 0);
+    opacity: 75%;
+    color: whitesmoke;
+    padding: 8px;
+}
+
+.contenedorLogo{
+    background-color: rgb(11, 32, 11);
+    padding: 40px;
+}
+
+.llaves{
+    background-image: url('../images/llaves.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedorPresentacion{
+    padding: 70px;
+    background-color: rgb(11, 32, 11);
+    opacity: 0.8;
+    color: whitesmoke;
+}
+
+.contenedorServicios{
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 0, 0),rgb(8, 39, 0),rgb(17, 51, 0));
+    color: whitesmoke;
+    padding: 80px;
+}
+
+
+.icon{
+    border-radius: 70%;
+}
+
+.item{
+    background-color: black;
+    padding: 30px;
+    border-radius: 3%;
+}
+
+.contenedorContacto{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.link:hover{
+    color: #f22a48
+}
+
+.urgencias{
+    color: white;
+    background-color: #ff0026;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+.wspBoton{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 100%;
+}
+
