@@ -29,21 +29,26 @@ div h1{
 }
 
 .contenedorPresentacion{
-    padding: 70px;
+    padding: 60px;
     background-color: rgb(11, 32, 11);
     opacity: 0.8;
     color: whitesmoke;
 }
 
+
 .contenedorServicios{
     background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 0, 0),rgb(8, 39, 0),rgb(17, 51, 0));
     color: whitesmoke;
-    padding: 80px;
+    padding: 60px;
 }
 
+.margen{
+    margin-top: 48px;
+}
 
 .icon{
     border-radius: 70%;
+    width: 100px;
 }
 
 .item{
@@ -72,10 +77,86 @@ div h1{
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 }
 
-.wspBoton{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    border-radius: 100%;
+.contenedorAuto{
+    background-color: black;
+    opacity: 0.8;
 }
 
+
+.wspBoton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.arregloBtn{
+    width: 50px !important;
+    height: 50px !important;    
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+footer{
+    background-color: black;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: gray;
+    text-decoration: dotted;
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 30px;
+    }
+    .contenedor-mobile img{
+        width: 28px;
+    }
+    .contenedor-mobile h5{
+        font-size: 75%;
+    }
+    .contenedorServicios{
+        padding: 20px;
+    }
+    .icon{
+        width: 20px;
+    }
+    .contenedorServicios p{
+        font-size: 15px;
+    }
+    .margen{
+        margin-top: 24px;
+    }
+    .item{
+        padding: 10px;
+    }
+    .urgencias{
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 767px) {
+    .icon{
+        width: 70px;
+    }
+    .contenedorLogo{
+        padding: 20px;
+    }
+    .contenedorPresentacion{
+        padding: 35px;
+        font-size: 70%;
+    }
+    .contenedorPresentacion img{
+        width: 150px;
+        height: 150px;
+    }
+}
