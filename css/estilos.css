@@ -114,49 +114,61 @@ footer a:hover{
     text-decoration: dotted;
 }
 
-@media (max-width: 600px) {
-    h1{
-        font-size: 30px;
+@media (width < 800px) {
+    .contenedorIcons h5{
+        font-size: 13px;
     }
-    .contenedor-mobile img{
-        width: 28px;
+    .contenedorIcons img{
+        width: 16px;
     }
-    .contenedor-mobile h5{
-        font-size: 75%;
+    .contenedorLogo h1{
+        font-size: 35px;
+    }
+    .contenedorLogo{
+        padding: 20px;
+    }
+    .urgencias{
+        font-size: 15px;
+    }
+    .contenedorPresentacion h3{
+        font-size: 18px ;
+    }
+    .contenedorPresentacion p{
+        font-size: 12px;
+    }
+    .contenedorPresentacion{
+        padding: 25px;
     }
     .contenedorServicios{
         padding: 20px;
     }
     .icon{
-        width: 20px;
-    }
-    .contenedorServicios p{
-        font-size: 15px;
+        width: 40px;
     }
     .margen{
-        margin-top: 24px;
+        margin-top: 28px;
     }
     .item{
-        padding: 10px;
+        padding: 15px;
     }
-    .urgencias{
-        font-size: 90%;
+    .item p{
+        font-size: 12px;
     }
-}
-
-@media (max-width: 767px) {
-    .icon{
-        width: 70px;
+    .contenedorAuto h2{
+        font-size: 16px;
+        padding-left: 5px;
     }
-    .contenedorLogo{
-        padding: 20px;
+    .arregloBtn{
+        width: 30px !important;
+        height: 30px !important;
+        margin-top: 20px;
+        margin-right: 20px;
     }
-    .contenedorPresentacion{
-        padding: 35px;
-        font-size: 70%;
-    }
-    .contenedorPresentacion img{
-        width: 150px;
+    .contenedorAuto img{
+        width: 350px;
         height: 150px;
+    }
+    .mobile{
+        width: 40px;
     }
 }
